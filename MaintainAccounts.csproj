@@ -53,47 +53,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AddressManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\AddressManager\AddressManager\bin\Debug\AddressManager.dll</HintPath>
-    </Reference>
-    <Reference Include="ARStatus, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\ARStatus\ARStatus\bin\Debug\ARStatus.dll</HintPath>
-    </Reference>
-    <Reference Include="ContactManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\ContactManager\ContactManager\bin\Debug\ContactManager.dll</HintPath>
-    </Reference>
-    <Reference Include="CPUserControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\CPUserControls\CPUserControls\bin\Debug\CPUserControls.dll</HintPath>
-    </Reference>
-    <Reference Include="CreateAccountWizard, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\CreateAccountWizard\CreateAccountWizard\bin\Debug\CreateAccountWizard.dll</HintPath>
-    </Reference>
-    <Reference Include="CreateCustomer.API, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Case Parts APIs\CreateCustomer.API\bin\Debug\CreateCustomer.API.dll</HintPath>
-    </Reference>
-    <Reference Include="CreditCardManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\CreditCardManager\CreditCardManager\bin\Debug\CreditCardManager.dll</HintPath>
-    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
-    <Reference Include="MemoMeister, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\MemoMeister\MemoMeister\bin\Debug\MemoMeister.dll</HintPath>
-    </Reference>
-    <Reference Include="RemarkViewer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\RemarkViewer\RemarkViewer\bin\Debug\RemarkViewer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -112,10 +76,6 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="WinformsValidation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\WinformsValidation\WinformsValidation\bin\Debug\WinformsValidation.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connected Services\CASalesTax\Reference.cs">
@@ -343,6 +303,48 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="AddressManager\AddressManager\AddressManager.csproj">
+      <Project>{d972e256-12b8-4a9b-9f46-05c113903f62}</Project>
+      <Name>AddressManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="ARStatus\ARStatus\ARStatus.csproj">
+      <Project>{c0b139e1-bb3f-499f-a031-22243ce41f2f}</Project>
+      <Name>ARStatus</Name>
+    </ProjectReference>
+    <ProjectReference Include="Case-Parts-APIs\CreateCustomer.API\CreateCustomer.API.csproj">
+      <Project>{71145d0b-996d-47b5-891f-4269fce0245d}</Project>
+      <Name>CreateCustomer.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="ContactManager\ContactManager\ContactManager.csproj">
+      <Project>{b86a3b10-e3af-48e7-9dfe-8a7e6d23f5c0}</Project>
+      <Name>ContactManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="CPUserControls\CPUserControls\CPUserControls.csproj">
+      <Project>{dd27dba7-3b2b-4d04-805c-f288013294d5}</Project>
+      <Name>CPUserControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="CreateAccountWizard\CreateAccountWizard\CreateAccountWizard.csproj">
+      <Project>{30cc18f5-f7ff-4d05-9f8c-2594fb9006ab}</Project>
+      <Name>CreateAccountWizard</Name>
+    </ProjectReference>
+    <ProjectReference Include="CreditCardManager\CreditCardManager\CreditCardManager.csproj">
+      <Project>{4c803896-5a38-49fe-b17c-64ffd51782bc}</Project>
+      <Name>CreditCardManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="MemoMeister\MemoMeister\MemoMeister.csproj">
+      <Project>{1dc75fa5-3112-4437-9763-50e1018f5598}</Project>
+      <Name>MemoMeister</Name>
+    </ProjectReference>
+    <ProjectReference Include="RemarkViewer\RemarkViewer\RemarkViewer.csproj">
+      <Project>{5de1e2f9-7932-4a9b-a488-becfb5de3d2c}</Project>
+      <Name>RemarkViewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="WinformsValidation\WinformsValidation\WinformsValidation.csproj">
+      <Project>{d6acb15e-7a29-46a4-b050-ba71a6ab901f}</Project>
+      <Name>WinformsValidation</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

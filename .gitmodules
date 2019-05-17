@@ -1,0 +1,30 @@
+[submodule "WinformsValidation"]
+	path = WinformsValidation
+	url = https://github.com/vlopezjr/WinformsValidation
+[submodule "Case-Parts-APIs"]
+	path = Case-Parts-APIs
+	url = https://github.com/vlopezjr/Case-Parts-APIs
+[submodule "MemoMeister"]
+	path = MemoMeister
+	url = https://github.com/vlopezjr/MemoMeister
+[submodule "ARStatus"]
+	path = ARStatus
+	url = https://github.com/vlopezjr/ARStatus
+[submodule "RemarkViewer"]
+	path = RemarkViewer
+	url = https://github.com/vlopezjr/RemarkViewer
+[submodule "CreditCardManager"]
+	path = CreditCardManager
+	url = https://github.com/vlopezjr/CreditCardManager
+[submodule "CPUserControls"]
+	path = CPUserControls
+	url = https://github.com/vlopezjr/CPUserControls
+[submodule "AddressManager"]
+	path = AddressManager
+	url = https://github.com/vlopezjr/AddressManager
+[submodule "ContactManager"]
+	path = ContactManager
+	url = https://github.com/vlopezjr/ContactManager
+[submodule "CreateAccountWizard"]
+	path = CreateAccountWizard
+	url = https://github.com/vlopezjr/CreateAccountWizard
